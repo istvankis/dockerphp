@@ -3,10 +3,13 @@ pipeline {
   stages {
     stage('build') {
       steps {
+node {
+        stage "Prepare environment"
           docker.image('php').inside {
-              sh "php -version"
+            stage "Checkout and build deps"
+                sh "php -version"
           }
-      }
+}
     }
   }
 }
