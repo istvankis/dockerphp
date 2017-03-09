@@ -1,4 +1,5 @@
 pipeline {
+    node any
     agent { docker 'php' }
     stages {
         stage('build') {
