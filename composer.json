@@ -1,0 +1,12 @@
+{
+  "name": "neogenro/dockerphp",
+  "description": "Docker jenkins integration test",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Istvan Kis",
+      "email": "istvan@neogen.biz"
+    }
+  ]
+}
